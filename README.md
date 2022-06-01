@@ -26,6 +26,6 @@ and for the security part i use the JWT token to make sure that the user is auth
 &nbsp;&nbsp;&nbsp;&nbsp; c. ADD target/spring-boot-docker.jar spring-boot-docker.jar <br />
 &nbsp;&nbsp;&nbsp;&nbsp; d. ENTRYPOINT ["java","-jar","/spring-boot-docker.jar"] <br />
 3- Build the docker image <br />
-&nbsp;&nbsp;&nbsp;&nbsp;a. docker build -t spring-boot-docker.jar .
+&nbsp;&nbsp;&nbsp;&nbsp;a. docker build -t spring-boot-docker.jar .<br />
 4- run the docker image <br />
-&nbsp;&nbsp;&nbsp;&nbsp;a.docker run -it --name spring-boot-docker.jar alpine
+&nbsp;&nbsp;&nbsp;&nbsp;a.docker run -it --name spring-boot-docker.jar alpine<br />
