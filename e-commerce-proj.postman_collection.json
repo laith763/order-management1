@@ -1,0 +1,552 @@
+{
+	"info": {
+		"_postman_id": "5821ca89-0cc5-46b1-ae0d-0d11d0237a6c",
+		"name": "e-commerce-proj",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19046329"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/api/v0/login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"username\": \"laithbadaha\",\n        \"password\": \"1234\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/v0/login",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v0",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/api/v0/stock",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "secret eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJsYWl0aGJhZGFoYSIsImV4cCI6MTY1MzY5MTU4MywiaWF0IjoxNjUzNjU1NTgzfQ.7oLwNasK5KSD7-SsroT_3WZEA958TLGKqMuG6UkruhA",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8080/api/v0/stock",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v0",
+						"stock"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/api/v0/stock",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v0/stock",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v0",
+						"stock"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/api/v0/product",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/api/v0/product",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/api/v0/customer",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/api/v0/customer",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/api/v0/order",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/api/v0/order",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/api/v0/customer",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "secret eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJsYWl0aGJhZGFoYSIsImV4cCI6MTY1MzY5MTU4MywiaWF0IjoxNjUzNjU1NTgzfQ.7oLwNasK5KSD7-SsroT_3WZEA958TLGKqMuG6UkruhA",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": " {\n        \"customerId\": 3,\n        \"customerName\": \"alibadaha\",\n        \"email\": \"abadaha@asaltech.com\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/v0/customer",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v0",
+						"customer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/api/v0/product",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "secret eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJsYWl0aGJhZGFoYSIsImV4cCI6MTY1MzY5MTU4MywiaWF0IjoxNjUzNjU1NTgzfQ.7oLwNasK5KSD7-SsroT_3WZEA958TLGKqMuG6UkruhA",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"productName\" : \"test\",\n    \"productId\" : 2,\n    \"price\" : 50\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/v0/product",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v0",
+						"product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/api/v0/stock",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "secret eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJsYWl0aGJhZGFoYSIsImV4cCI6MTY1MzY5MTU4MywiaWF0IjoxNjUzNjU1NTgzfQ.7oLwNasK5KSD7-SsroT_3WZEA958TLGKqMuG6UkruhA",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"stockId\" : 1,\n    \"quantity\" : 4\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/v0/stock",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v0",
+						"stock"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/api/v0/order",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "secret eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJsYWl0aGJhZGFoYSIsImV4cCI6MTY1MzY5MTU4MywiaWF0IjoxNjUzNjU1NTgzfQ.7oLwNasK5KSD7-SsroT_3WZEA958TLGKqMuG6UkruhA",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"orderId\": 1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/v0/order",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v0",
+						"order"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/api/v0/stock",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "secret eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJsYWl0aGJhZGFoYSIsImV4cCI6MTY1MzY5MTU4MywiaWF0IjoxNjUzNjU1NTgzfQ.7oLwNasK5KSD7-SsroT_3WZEA958TLGKqMuG6UkruhA",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8080/api/v0/stock/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v0",
+						"stock",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/api/v0/customer/10",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "secret eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJsYWl0aGJhZGFoYSIsImV4cCI6MTY1MzY5MTU4MywiaWF0IjoxNjUzNjU1NTgzfQ.7oLwNasK5KSD7-SsroT_3WZEA958TLGKqMuG6UkruhA",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8080/api/v0/customer/10",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v0",
+						"customer",
+						"10"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/api/v0/customer/11",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "secret eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJsYWl0aGJhZGFoYSIsImV4cCI6MTY1MzY5MTU4MywiaWF0IjoxNjUzNjU1NTgzfQ.7oLwNasK5KSD7-SsroT_3WZEA958TLGKqMuG6UkruhA",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8080/api/v0/customer/11",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v0",
+						"customer",
+						"11"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/api/v0/product/2",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "secret eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJsYWl0aGJhZGFoYSIsImV4cCI6MTY1MzY5MTU4MywiaWF0IjoxNjUzNjU1NTgzfQ.7oLwNasK5KSD7-SsroT_3WZEA958TLGKqMuG6UkruhA",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8080/api/v0/product/2",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v0",
+						"product",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/api/v0/order/1",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "secret eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJsYWl0aGJhZGFoYSIsImV4cCI6MTY1MzY5MTU4MywiaWF0IjoxNjUzNjU1NTgzfQ.7oLwNasK5KSD7-SsroT_3WZEA958TLGKqMuG6UkruhA",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8080/api/v0/order/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v0",
+						"order",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/api/v0/stock/14",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "secret eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJsYWl0aGJhZGFoYSIsImV4cCI6MTY1MzY5MTU4MywiaWF0IjoxNjUzNjU1NTgzfQ.7oLwNasK5KSD7-SsroT_3WZEA958TLGKqMuG6UkruhA",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"quantity\" : 70\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/v0/stock/14",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v0",
+						"stock",
+						"14"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/api/v0/customer/1",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "secret eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJsYWl0aGJhZGFoYSIsImV4cCI6MTY1MzY5MTU4MywiaWF0IjoxNjUzNjU1NTgzfQ.7oLwNasK5KSD7-SsroT_3WZEA958TLGKqMuG6UkruhA",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"firstName\" : \"badaha\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/v0/customer/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v0",
+						"customer",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/api/v0/product/1",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "secret eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJsYWl0aGJhZGFoYSIsImV4cCI6MTY1MzY5MTU4MywiaWF0IjoxNjUzNjU1NTgzfQ.7oLwNasK5KSD7-SsroT_3WZEA958TLGKqMuG6UkruhA",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\" : \"test323\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/v0/product/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v0",
+						"product",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/api/v0/order/15",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "secret eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJsYWl0aGJhZGFoYSIsImV4cCI6MTY1MzY5MTU4MywiaWF0IjoxNjUzNjU1NTgzfQ.7oLwNasK5KSD7-SsroT_3WZEA958TLGKqMuG6UkruhA",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"customerId\" : 4\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/v0/order/15",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v0",
+						"order",
+						"15"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
