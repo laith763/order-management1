@@ -18,7 +18,7 @@ the best practices to add the end points is to add it into class, and this allow
 and for the security part i use the JWT token to make sure that the user is authorized , and i send the token with each request the user sent.
  ## 5) How to create and run the docker image
   1- first iam created a file and name it Docker file <br />
-  2- and in the Docker file this info <br />
+  2- and add this info in the Docker file <br />
  &nbsp;&nbsp;&nbsp;     a. FROM openjdk:17 <br />
 &nbsp;&nbsp;&nbsp; b. EXPOSE 8000 <br />
 &nbsp;&nbsp;&nbsp; c. ADD target/spring-boot-docker.jar spring-boot-docker.jar <br />
