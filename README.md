@@ -4,7 +4,7 @@
 
 
 ## 2) Testing 
-i used postman to test all the Api's
+i used postman and swagger to test all the Api's
 
 
 ## 3) Database
