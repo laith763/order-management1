@@ -9,7 +9,7 @@ i used postman and swagger to test all the Api's
 
 ## 3) Database
 i used postgresql to storage the data in it
-[readMe.txt](https://github.com/laith763/order-management1/files/8818083/readMe.txt)
+
 
 
 
