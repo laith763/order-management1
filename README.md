@@ -31,7 +31,7 @@ and for the security part i use the JWT token to make sure that the user is auth
 &nbsp;&nbsp;&nbsp;&nbsp;a. docker run -it --name spring-boot-docker.jar alpine<br />
 5- to push the image to the docker hub <br />
 ```
-&nbsp;&nbsp;&nbsp;&nbsp; a. docker push hub-user/repo-name:tag <br /> 
-&nbsp;&nbsp;&nbsp;&nbsp; b. docker search centos <br />
-&nbsp;&nbsp;&nbsp;&nbsp; c. docker pull centos <br />
+  a. docker push hub-user/repo-name:tag <br /> 
+  b. docker search centos <br />
+  c. docker pull centos <br />
 ```
