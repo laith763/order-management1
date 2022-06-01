@@ -19,7 +19,7 @@ and for the security part i use the JWT token to make sure that the user is auth
  ## 5) How to create and run the docker image
   1- first iam created a file and name it Docker file <br />
   2- and in the Docker file this info <br />
-      a. FROM openjdk:17 <br />
-&nbsp; b. EXPOSE 8000 <br />
-c. ADD target/spring-boot-docker.jar spring-boot-docker.jar <br />
-d. ENTRYPOINT ["java","-jar","/spring-boot-docker.jar"] <br />
+ &nbsp;&nbsp;&nbsp;     a. FROM openjdk:17 <br />
+&nbsp;&nbsp;&nbsp; b. EXPOSE 8000 <br />
+&nbsp;&nbsp;&nbsp; c. ADD target/spring-boot-docker.jar spring-boot-docker.jar <br />
+&nbsp;&nbsp;&nbsp; d. ENTRYPOINT ["java","-jar","/spring-boot-docker.jar"] <br />
