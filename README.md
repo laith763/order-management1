@@ -21,17 +21,23 @@ and for the security part i use the JWT token to make sure that the user is auth
  ## 5) How to create and run the docker image
   1- first iam created a file and name it Docker file <br />
   2- add this info in the Docker file <br />
-&nbsp;&nbsp;&nbsp;&nbsp; a. FROM openjdk:17 <br />
-&nbsp;&nbsp;&nbsp;&nbsp; b. EXPOSE 8000 <br />
-&nbsp;&nbsp;&nbsp;&nbsp; c. ADD target/spring-boot-docker.jar spring-boot-docker.jar <br />
-&nbsp;&nbsp;&nbsp;&nbsp; d. ENTRYPOINT ["java","-jar","/spring-boot-docker.jar"] <br />
+  ```
+   FROM openjdk:17 
+   EXPOSE 8000 
+   ADD target/spring-boot-docker.jar spring-boot-docker.jar 
+   ENTRYPOINT ["java","-jar","/spring-boot-docker.jar"] 
+```
 3- Build the docker image <br />
-&nbsp;&nbsp;&nbsp;&nbsp;a. docker build -t spring-boot-docker.jar .<br />
+```
+   docker build -t spring-boot-docker.jar .
+```
 4- run the docker image <br />
-&nbsp;&nbsp;&nbsp;&nbsp;a. docker run -it --name spring-boot-docker.jar alpine<br />
+```
+   docker run -it --name spring-boot-docker.jar alpine
+```
 5- to push the image to the docker hub <br />
 ```
-  a. docker push hub-user/repo-name:tag <br /> 
-  b. docker search centos <br />
-  c. docker pull centos <br />
+  docker push hub-user/repo-name:tag 
+  docker search centos 
+  docker pull centos 
 ```
