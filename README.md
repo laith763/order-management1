@@ -16,3 +16,10 @@ i build four model the customer, order and product,stock
 and declear all request Methods ( get , post , put , delete), For each one I have added a controller, dto, path costantis, entity, repository, service Impl, and a service intrface.
 the best practices to add the end points is to add it into class, and this allowed you to manage it easy and an efficient way.
 and for the security part i use the JWT token to make sure that the user is authorized , and i send the token with each request the user sent.
+ ## 5) How to create and run the docker image
+  1- first iam created a file and name it Docker file
+  2- and in the Docker file this info
+      a. FROM openjdk:17
+b. EXPOSE 8000
+c. ADD target/spring-boot-docker.jar spring-boot-docker.jar
+d. ENTRYPOINT ["java","-jar","/spring-boot-docker.jar"]
