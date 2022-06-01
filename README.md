@@ -17,9 +17,9 @@ and declear all request Methods ( get , post , put , delete), For each one I hav
 the best practices to add the end points is to add it into class, and this allowed you to manage it easy and an efficient way.
 and for the security part i use the JWT token to make sure that the user is authorized , and i send the token with each request the user sent.
  ## 5) How to create and run the docker image
-  1- first iam created a file and name it Docker file
-  2- and in the Docker file this info
-      a. FROM openjdk:17
-b. EXPOSE 8000
-c. ADD target/spring-boot-docker.jar spring-boot-docker.jar
-d. ENTRYPOINT ["java","-jar","/spring-boot-docker.jar"]
+  1- first iam created a file and name it Docker file <br />
+  2- and in the Docker file this info <br />
+      a. FROM openjdk:17 <br />
+b. EXPOSE 8000 <br />
+c. ADD target/spring-boot-docker.jar spring-boot-docker.jar <br />
+d. ENTRYPOINT ["java","-jar","/spring-boot-docker.jar"] <br />
