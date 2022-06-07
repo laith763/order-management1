@@ -19,7 +19,7 @@ and declear all request Methods ( get , post , put , delete), For each one I hav
 the best practices to add the end points is to add it into class, and this allowed you to manage it easy and an efficient way.
 and for the security part i use the JWT token to make sure that the user is authorized , and i send the token with each request the user sent.
  ## 5) How to create and run the docker image
-  1- first iam created a file and name it Docker file <br />
+  1- first i am created a file and name it Docker file <br />
   2- add this info in the Docker file <br />
   ```
    FROM openjdk:17 
