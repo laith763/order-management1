@@ -39,7 +39,7 @@ and for the security part i use the JWT token to make sure that the user is auth
 ```
   docker push hub-user/repo-name:tag 
   docker search centos 
-  docker pull centos 
+  docker pull 1181460/web-services
 ```
 
 ## 6) Like for docker hub
